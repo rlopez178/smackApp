@@ -1,0 +1,2 @@
+
+This project is using three cocopods 'Alamofire', 'Socket.IO-Client-Swift', and 'SwiftyJSON'. It is also using an add on called SWReveal that I downloaded off github. I have also deleted the main VC, because when I added SWreveal I choose the second option(I forgot exactly what it said, but when you added the files to the folder, one of two options came up), then i asked if i wanted a Bridging-Header, choose yes. then in the new file you ' #import "SWRevealViewController.h" ' without the other quotes.
