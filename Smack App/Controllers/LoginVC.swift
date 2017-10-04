@@ -13,6 +13,9 @@ class LoginVC: UIViewController {
     //MARK: Actions
     
     //This action dismisses a VC and returns it to previous one
+    @IBAction func createAccountBtnPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender: nil)
+    }
     @IBAction func closePressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
         

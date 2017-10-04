@@ -14,6 +14,8 @@ class ChannelVC: UIViewController {
     @IBAction func loginBtnPressed(_ sender: Any) {
         performSegue(withIdentifier: TO_LOGIN, sender: nil)
     }
+    // You create this func in the VC that you want to unwind back to. You unwind back to here by using the same old performsegue command.
+    @IBAction func prepareForUnwind(segue : UIStoryboardSegue){}
     
     //MARK: Outlets
     
