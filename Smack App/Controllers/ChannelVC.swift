@@ -10,6 +10,15 @@ import UIKit
 
 class ChannelVC: UIViewController {
 
+    //MARK: Actions
+    @IBAction func loginBtnPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_LOGIN, sender: nil)
+    }
+    
+    //MARK: Outlets
+    
+    //Notice that this login button is both an action and an outlet
+    @IBOutlet weak var loginBtn: UIButton!
     
     
     //MARK: Lifecycle
